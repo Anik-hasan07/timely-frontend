@@ -1,0 +1,86 @@
+/* CSS Reset */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+dl,
+dd,
+ol,
+ul,
+figure,
+fieldset,
+legend {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove default padding */
+fieldset,
+ol,
+ul {
+  padding: 0;
+}
+
+/* Remove list styles (bullets/numbers) */
+ol,
+ul {
+  list-style: none;
+}
+
+/* Reset font-size and font-family */
+html {
+  font-size: 100%;
+  font-family: sans-serif;
+}
+
+/* Remove default text-decoration */
+a {
+  text-decoration: none;
+}
+
+/* Remove default border */
+button,
+input,
+select,
+textarea {
+  border: none;
+  outline: none;
+}
+
+/* Remove default background-color and color */
+button,
+input,
+optgroup,
+select,
+textarea {
+  background-color: transparent;
+  color: inherit;
+}
+
+/* Set default font-size to 16px */
+body {
+  font-size: 16px;
+}
+
+.ck-powered-by-balloon {
+  display: none !important;
+}
+
+.MuiFormHelperText-root {
+  margin: 5px 0 0 0 !important;
+}

@@ -1,0 +1,61 @@
+.appBar {
+  .logoWeb {
+    width: 30px;
+  }
+  .logoMobile {
+    width: 30px;
+  }
+}
+.dialogHeader {
+  display: flex;
+  padding: 24px 24px 22px;
+  position: relative;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.issueCreateDialog .MuiDialog-paper {
+  width: 50% !important;
+}
+
+.modalTitle {
+  font-size: 0.857143em;
+  font-style: inherit;
+  line-height: 1.33333;
+  font-weight: var(--ds-font-weight-semibold, 600);
+  color: var(--ds-text-subtle, var(--ds-text-subtlest, #6b778c));
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: 4px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.modalSubTitle {
+  font-size: 0.657143em;
+  font-style: inherit;
+  line-height: 1.33333;
+  font-weight: var(--ds-font-weight-semibold, 600);
+  color: var(--ds-text-subtle, var(--ds-text-subtlest, #6b778c));
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: 4px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.DYXVr {
+  border: 1px dashed rgb(225 229 234) !important;
+  max-width: 100% !important;
+}
+
+.createButton {
+  color: white;
+  background-color: red;
+}
+
+.MuiDialogActions-spacing {
+  padding: 15px 25px !important;
+}

@@ -1,0 +1,230 @@
+.flatWrapper {
+  display: block;
+  padding: 24px 0px 0px;
+  background-color: var(--ds-surface-sunken, #fafbfc);
+  margin: 0px -40px 32px;
+
+  .projectComponent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 48px 15px 40px;
+
+    .projectText {
+      font-size: 1.14286em;
+      color: var(--ds-text, var(--ds-text, #172b4d));
+      font-weight: 500;
+    }
+    .viewAllProject {
+      color: #0065ff;
+    }
+  }
+
+  .gridWrapper {
+    display: inline-flex;
+    white-space: nowrap;
+    height: 210px;
+    padding: 1em 48px 1em 55px;
+    // margin-top: 20px;
+    .container {
+      display: flex;
+      height: 200px;
+      margin-right: 15px;
+      width: 236px;
+      padding-top: 16px;
+      margin-bottom: 10px;
+      flex-direction: column;
+      color: inherit;
+      background: var(--ds-surface-raised, white);
+      border-top: none;
+      border-right: none;
+      border-bottom: none;
+      border-image: initial;
+      border-radius: 3px;
+      border-left: 20px solid var(--ds-background-accent-blue-subtler, #ffcc80);
+      box-sizing: border-box;
+      // border-left: 20px solid var(--ds-background-neutral, #f4f5f7);
+      box-sizing: border-box;
+      box-shadow: var(
+        --ds-shadow-raised,
+        0 1px 1px rgba(9, 30, 66, 0.25),
+        0 0 1px rgba(9, 30, 66, 0.31)
+      );
+      transition: box-shadow 0.3s ease-in-out 0s, border-color 0.6s ease-in 0s;
+
+      .top {
+        text-align: left;
+        font-size: 13px;
+        color: inherit;
+        width: 100%;
+        margin-bottom: 12px;
+        margin-left: -12px;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        .imageWrappper {
+          display: inline-flex;
+          .iDfLAs {
+            display: inline-block;
+            vertical-align: top;
+            flex: 1 1 0%;
+            margin-left: 8px;
+            margin-right: 4px;
+            overflow: hidden;
+            .hVfRVu {
+              font-size: 1em;
+              font-style: inherit;
+              letter-spacing: -0.003em;
+              color: var(--ds-text, #172b4d);
+              white-space: nowrap;
+              font-weight: 600;
+              line-height: 1;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              margin: 0px;
+              height: 16px;
+            }
+            .hfuBaY {
+              font-size: 11px;
+              color: var(--ds-text, #172b4d);
+              letter-spacing: -0.08px;
+              margin: 0px;
+              text-overflow: ellipsis;
+              overflow: hidden;
+              white-space: nowrap;
+              text-transform: none;
+              font-weight: normal;
+              line-height: 14px;
+            }
+          }
+        }
+      }
+
+      .middle {
+        flex: 1 1 0%;
+        .quickLink {
+          display: flex;
+          justify-content: space-between;
+          padding-left: 16px;
+          padding-right: 12px;
+          margin-bottom: 2px;
+          .quickLinkText {
+            font-style: inherit;
+            line-height: 1.33333;
+            font-weight: var(--ds-font-weight-semibold, 600);
+            margin-top: 20px;
+            text-transform: uppercase;
+            color: var(--ds-text-subtlest, #6b778c);
+            padding-bottom: 4px;
+            font-size: 11px;
+          }
+          .quickLinkUrl {
+            flex: 1 1 0%;
+            display: flex;
+            max-width: 100%;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+            -webkit-box-align: center;
+            align-items: center;
+            border-radius: 3px;
+            padding: 0px;
+            font-size: 11px;
+            text-decoration: none !important;
+            .issue {
+              overflow: hidden;
+              flex: 1 1 0%;
+              .issueText {
+                font-style: inherit;
+                //   line-height: 1.33333;
+                text-transform: none;
+                font-weight: normal;
+                //   color: var(--ds-text, #172b4d);
+                //   text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
+                font-size: 11px;
+                //   margin-top: 20px;
+                //   padding: 4px 0px 4px 4px;
+              }
+            }
+            .issueCounter {
+              box-sizing: border-box;
+              font-style: inherit;
+              background: #dfe1e6;
+              line-height: initial;
+              padding: 0px 2px;
+              border-radius: 9.6px;
+              font-weight: normal;
+              text-transform: none;
+              margin: 3px;
+              width: 30px;
+              min-width: 30px;
+              height: 16px;
+              // text-align: center;
+              color: var(--ds-text, #172b4d);
+              // font-size: 11px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+          }
+        }
+      }
+
+      .bottom {
+        border-top: 1px solid#ebecf0;
+        height: 28px;
+        display: flex;
+        align-items: center;
+        .boardButton {
+          padding-left: 4px !important;
+          display: flex;
+          align-items: center;
+          font-size: inherit;
+          font-style: normal;
+          font-family: inherit;
+
+          cursor: pointer;
+
+          .board {
+            opacity: 1;
+            transition: opacity 0.3s ease 0s;
+            margin: 0px;
+            -webkit-box-flex: 1;
+            flex-grow: 1;
+            flex-shrink: 1;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            .boardText {
+              display: flex;
+              text-transform: none;
+              font-weight: normal;
+              font-size: 11px;
+            }
+          }
+          .bottomImageIcon {
+            opacity: 1;
+            transition: opacity 0.3s ease 0s;
+            display: flex;
+            margin: 0px;
+            -webkit-box-flex: 0;
+            flex-grow: 0;
+            flex-shrink: 0;
+            align-self: center;
+            font-size: 0px;
+            line-height: 0;
+            user-select: none;
+            .ImageIcon {
+              display: inline-block;
+              flex-shrink: 0;
+              line-height: 1;
+              width: 16px;
+              height: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

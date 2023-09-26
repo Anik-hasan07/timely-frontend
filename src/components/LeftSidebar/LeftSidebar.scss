@@ -1,0 +1,40 @@
+.left_sidebar__header {
+  background-color: #ffffff !important;
+  color: black !important;
+  box-shadow: none !important;
+  left: 0 !important;
+  right: auto !important;
+  //   width: 65px !important;
+
+  //   .hamburger__container {
+  //     min-height: 65px !important;
+  //   }
+}
+
+// Dropdown styling
+
+#demo-simple-select-label {
+  left: -4px;
+}
+
+.dropDownBox {
+  width: 100%;
+  background-color: white;
+}
+
+.left_sidebar_list.with_dropdown li:hover {
+  background-color: #ff562205;
+  width: 100%;
+  max-width: 100%;
+}
+
+.left_sidebar_list.with_dropdown {
+  margin: 5px;
+  border-radius: 10px;
+  overflow: hidden;
+  padding-bottom: 0;
+}
+
+.css-2dum1v-MuiDrawer-docked .dropDownBox {
+  display: none;
+}

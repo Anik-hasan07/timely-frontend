@@ -1,0 +1,46 @@
+.projects {
+  .cell {
+    border: 0;
+  }
+  .cell-text {
+    text-align: left;
+  }
+  .create-btn {
+    background-color: #0000cd;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 30px;
+  .head-section {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .single_project_name {
+    color: #0052cc;
+    cursor: pointer;
+  }
+  .single_project_name:hover {
+    color: #0065ff;
+    text-decoration: underline;
+  }
+}
+.field {
+  width: 50%;
+}
+.label {
+  margin-top: 10px;
+}
+
+.create-link {
+  color: #ff5722;
+  font-size: 16px;
+}
+
+.create-link:hover {
+  color: #b3411d;
+  cursor: pointer;
+}

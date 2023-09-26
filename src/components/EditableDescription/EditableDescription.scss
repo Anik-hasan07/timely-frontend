@@ -1,0 +1,43 @@
+.descriptionWrapper {
+  .paddingLeft {
+    padding-left: 1rem;
+  }
+  ol {
+    @extend .paddingLeft;
+    list-style: decimal;
+  }
+  ul {
+    @extend .paddingLeft;
+    list-style: disc;
+  }
+}
+.ck-editor {
+  .ck-toolbar {
+    border-color: #dfe1e6 !important;
+    border-radius: 4px 4px 0 0 !important;
+    -webkit-border-radius: 4px 4px 0 0 !important;
+    -moz-border-radius: 4px 4px 0 0 !important;
+    -ms-border-radius: 4px 4px 0 0 !important;
+    -o-border-radius: 4px 4px 0 0 !important;
+  }
+
+  .ck-content {
+    padding: 20px !important;
+    height: 250px;
+    border-color: #dfe1e6 !important;
+    border-radius: 0 0 4px 4px !important;
+    -webkit-border-radius: 0 0 4px 4px !important;
+    -moz-border-radius: 0 0 4px 4px !important;
+    -ms-border-radius: 0 0 4px 4px !important;
+    -o-border-radius: 0 0 4px 4px !important;
+
+    ul,
+    ol {
+      padding-left: 1rem;
+    }
+
+    &.ck-focused {
+      box-shadow: none !important;
+    }
+  }
+}

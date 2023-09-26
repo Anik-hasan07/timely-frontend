@@ -1,0 +1,40 @@
+.userDetails {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  .userDetailsWrapper {
+    grid-column: 2 / span 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 3rem;
+    padding: 2.5rem;
+  }
+  .avatar {
+    align-self: center;
+    width: 8rem;
+    height: 8rem;
+    margin-bottom: 1rem;
+  }
+  .label {
+    color: gray;
+    font-size: 0.8rem;
+  }
+  .userNameWrapper {
+    margin: 0.3rem 0;
+    .userName {
+      font-size: 1rem;
+    }
+  }
+  .userEmailWrapper {
+    margin: 0.1rem 0;
+    .userEmail {
+      font-size: 1rem;
+    }
+  }
+  .roleWrapper {
+    margin: 0.1rem 0;
+    .role {
+      font-size: 1.1rem;
+    }
+  }
+}

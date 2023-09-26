@@ -1,0 +1,38 @@
+.layoutContainer {
+  min-width: 0px;
+  position: relative;
+  z-index: 1;
+  flex: 1 1 auto;
+  margin: 0 40px;
+  .css-160xfzw {
+    margin: 24px 0px 16px;
+  }
+  .css-1pa8dxh {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+  }
+  .css-6da72m {
+    min-width: 0px;
+    max-width: 100%;
+    margin-bottom: 8px;
+    flex: 1 1 auto;
+  }
+  .css-kwc091 {
+    font-size: 1.71429em;
+    font-style: inherit;
+    color: var(--ds-text, var(--ds-text, #172b4d));
+    font-weight: var(--ds-font-weight-medium, 500);
+    letter-spacing: -0.01em;
+    margin-top: 0px;
+    line-height: 32px;
+    outline: none;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+
+.ck-dropdown__arrow {
+  z-index: auto !important;
+}

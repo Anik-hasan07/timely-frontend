@@ -1,0 +1,162 @@
+.createIssueBtn > .issueBtn:hover {
+  background-color: #dddddd !important;
+  cursor: pointer;
+}
+
+.boardTitle {
+  width: 100%;
+  padding: 02%;
+}
+.search {
+  display: flex;
+  justify-content: space-between;
+  min-width: 200px;
+  border: 1px solid rgb(193, 189, 189);
+  color: #2e2e30;
+  border-radius: 8px;
+  padding: 0.8rem;
+  width: 10%;
+}
+.card {
+  width: 100%;
+
+  padding: 15px;
+  background: #fff;
+  box-shadow: 3px 1px 12px #0000001a;
+  border-radius: 4px;
+  /* margin-bottom: 15px; */
+  cursor: move;
+}
+.cardFooter {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.circular-background {
+  display: inline-block;
+  background-color: lightgray;
+  border-radius: 45%;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 5px;
+}
+.text {
+  display: inline-block;
+  color: #0c0101;
+  font-size: 14px;
+
+  text-align: center;
+}
+.leftFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 20%;
+}
+.collabPerson {
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin-left: -5px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.status,
+.days,
+.time {
+  font-size: 14px;
+  margin-bottom: 7px;
+}
+.card_right {
+  width: auto;
+  float: left;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.order .status {
+  background: #fff1de;
+  color: #494949;
+  padding: 3px 10px;
+  border-radius: 18px;
+}
+.done .status {
+  background: #c8ebdd;
+  color: #494949;
+  padding: 3px 10px;
+  border-radius: 18px;
+}
+.pending .status {
+  background: #cfd8f0;
+  color: #494949;
+  padding: 3px 10px;
+  border-radius: 18px;
+}
+.waiting .status {
+  background: #eac8d7;
+  color: #494949;
+  padding: 3px 10px;
+  border-radius: 18px;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background: #fbfcfd;
+  height: 100vh;
+  padding: 40px 0px;
+}
+h4 {
+  font-family: sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-top: 0px;
+  color: #416183;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}
+
+.drag_column {
+  width: 100%;
+  float: left;
+  display: flex;
+  padding: 5px;
+}
+.drag_row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  gap: 5px;
+}
+.small-box {
+  width: 33.33%;
+  background: #f7f8fa;
+  /* height: max-content; */
+  flex: 1 1 0;
+}
+
+.task {
+  border: 1px solid white;
+  margin: 10px;
+  box-shadow: 1px 3px 10px gray;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.taskTypeIcon {
+  height: 20px;
+  width: 20px;
+}

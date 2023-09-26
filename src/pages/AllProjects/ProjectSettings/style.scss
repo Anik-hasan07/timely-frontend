@@ -1,0 +1,21 @@
+.userList {
+  display: flex;
+  .field {
+    margin-bottom: 10px;
+    width: 50%;
+  }
+  h2 {
+    margin-bottom: inherit !important;
+  }
+  .custom-cancel-button {
+    color: #ff5722 !important;
+    background-color: transparent !important;
+  }
+  .searchBtnWrapper {
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

@@ -1,0 +1,83 @@
+.topNav {
+  ul {
+    display: flex;
+    // margin-left: 10%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  li {
+    margin-left: 5px;
+  }
+  .main-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .sub-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .complete-sprint-btn {
+    background-color: #ebe4e4;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .avatar {
+    // background-color: DarkOrange;
+    color: white;
+    height: 35px !important;
+    width: 35px !important;
+    padding: 5px;
+    border: 1px solid white;
+  }
+
+  .avatar:hover {
+    transform: scale(1.1);
+  }
+  .userName {
+    background-color: rgb(2, 43, 91);
+  }
+  .iconStyle {
+    height: 20px;
+    width: 20px;
+  }
+  .issue-apdate-button {
+    height: 30px;
+    color: black;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 15px;
+    background-color: rgb(226, 234, 241);
+  }
+  .issue-apdate-button:hover {
+    background-color: rgb(221, 222, 222);
+  }
+  .breadCrumbLinks {
+    color: #5e6c84;
+  }
+  .breadCrumbLinks:hover {
+    text-decoration: underline;
+  }
+  .breadCrumbLinksInactive:hover {
+    text-decoration: none;
+    color: #5e6c84;
+    cursor: default;
+  }
+  .remaining-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .remaining-text {
+    color: grey;
+    font-size: 13px;
+  }
+}
+
+.tooltip-content-wrapper {
+  font-size: 13px;
+  .startEndLabel {
+    font-weight: bold;
+  }
+}
